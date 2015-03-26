@@ -1,0 +1,225 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvIsConnected"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="61dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refresh"
+                android:id="@+id/button" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="61dp"
+        android:id="@+id/tableRow" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout" >
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:text="Device 01 "
+                android:id="@+id/switch0"
+                android:checked="false" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="............"
+                android:id="@+id/txt0"
+                android:layout_weight="0.27" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="61dp"
+        android:id="@+id/tableRow2" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout2"
+            android:weightSum="1">
+
+
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:text="Device 02 "
+                android:id="@+id/switch1"
+                android:checked="false" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="............"
+                android:id="@+id/txt1" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="61dp"
+        android:id="@+id/tableRow3" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout4" >
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:text="Device 03 "
+                android:id="@+id/switch2"
+                android:checked="false" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="............"
+                android:id="@+id/txt2"
+                android:layout_weight="0.27" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="61dp"
+        android:id="@+id/tableRow4" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout3" >
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:text="Device 04 "
+                android:id="@+id/switch3"
+                android:checked="false" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="............"
+                android:id="@+id/txt3"
+                android:layout_weight="0.27" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="61dp"
+        android:id="@+id/tableRow5" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout5" >
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:text="Device 05 "
+                android:id="@+id/switch4"
+                android:checked="false" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="............"
+                android:id="@+id/txt4"
+                android:layout_weight="0.27" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="61dp"
+        android:id="@+id/tableRow6" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout6"
+            android:weightSum="1">
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:text="Device 06 "
+                android:id="@+id/switch5"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=".............."
+                android:id="@+id/txt5"
+                android:layout_weight="1.05" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="61dp"
+        android:id="@+id/tableRow7" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout7" >
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:text="Device 07 "
+                android:id="@+id/switch6"
+                android:checked="false" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="............"
+                android:id="@+id/txt6"
+                android:layout_weight="0.27" />
+        </LinearLayout>
+    </TableRow>
+
+</LinearLayout>
