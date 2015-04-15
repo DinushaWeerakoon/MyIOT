@@ -12,5 +12,9 @@ As shown in the image
       http://reuk.co.uk/OtherImages/connect-raspberry-pi-to-a-relay.jpg
 
 You can run the iot.py in your application.(your raspberry pi must connect to the internet)
+Note :- Before you run the .py file you need to install following packages.
+        urllib2
+        demjson
+        traceback
 
 Now you can check IOT app.
